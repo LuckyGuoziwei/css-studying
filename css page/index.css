@@ -1,0 +1,397 @@
+
+* @Author: Ziwei Guo
+* @Date:   2017-07-12 21:58:08
+* @Last Modified by:   Ziwei Guo
+* @Last Modified time: 2017-07-22 09:06:23
+*/
+
+body,div,ul,li,p{
+	margin: 0;
+	padding: 0;
+	font: 12px 宋体;
+}
+img, input{
+	border: 0 none;
+}
+input{
+	outline-style: none;
+}
+a{
+	color: #000;
+	text-decoration: none;
+}
+ul li{
+	list-style: none;
+}
+
+/* 顶部导航 */
+.fl{
+	float: left;
+}
+.fr{
+	float: right;
+}
+.top-nav{
+	height: 26px;
+	border-top: 1px solid #D8D8D8;
+	border-bottom: 1px solid #D8D8D8;
+	background: #f7f7f7;
+}
+.t-n-con, .search{
+	width: 970px;
+	margin: 0 auto;
+
+}
+.l-t-con, .r-t-con {
+	height: 26px;
+	line-height: 26px;
+}
+.r-t-con ul{
+	margin: 0;
+}
+.r-t-con ul li{
+	float: left;
+/* 	height: 26px;
+	line-height: 26px; */
+	background: url('../images/sj.png') no-repeat right;
+}
+.r-t-con ul li a{
+	padding: 0 10px;
+	/* display: inline-block;
+	height: 26px; */
+}
+.search{
+	margin-top: 12px auto;
+	width: 970px;
+	height: 84px;
+}
+.logo{
+	width: 200px;
+	height: 84px;
+}
+.r-search{
+	width: 528px;
+	height: 40px;
+	border: 1px solid #c9c9c9;
+	margin-top: 30px;
+}
+.r-search input[type='text']{
+	width: 419px;
+	height: 28px;
+	border: 1px solid #a6a6a6;
+	float: left;
+	margin: 5px 0 0 4px;
+}
+.r-search input[type='button']{
+	width: 99px;
+	height: 32px;
+	background: url('../images/serch.png');
+	float: left;
+	margin-top: 5px;
+}
+/* 主导航开始*/
+.nav{
+	width: 970px;
+	height: 25px;
+	margin: 10px auto;
+	border-bottom: 2px solid #0266a3
+}
+.nav ul li{
+	float: left;
+}
+.nav li a{
+	display: inline-block;
+	height: 25px;
+	line-height: 25px;
+	padding: 0 15px;
+}
+.nav li a:hover{
+	background: #0266a3;
+	color: #fff;
+}
+/* 商机市场开始 */
+.mar{
+	width: 970px;
+	height: 210px;
+	margin: 0 auto;
+}
+.mar-left{
+	width: 200px;
+	height: 210px;
+	background: #ebe0e6;
+}
+.mar-title{
+	height: 30px;
+	background: #0266a3;
+	line-height: 30px;
+	color: #fff;
+	padding-left: 20px;
+}
+.mar-list{
+	margin-top: 5px;
+}
+.mar-list ul{
+	margin: 0;
+	padding: 0;
+}
+.mar-list ul li{
+	height: 28px;
+	line-height: 28px;
+	padding-left: 39px;
+}
+.mar-list ul li.icon1{
+	background: url('../images/icon_1.png') no-repeat 9px;
+}
+.mar-list ul li.icon2{
+	background: url('../images/icon_2.png') no-repeat 9px;
+}
+.mar-list ul li.icon3{
+	background: url('../images/icon_3.png') no-repeat 9px;
+}
+.mar-list ul li.icon4{
+	background: url('../images/icon_4.png') no-repeat 9px;
+}
+.mar-list ul li.icon5{
+	background: url('../images/icon_5.png') no-repeat 9px;
+}
+.mar-list ul li.icon6{
+	background: url('../images/icon_6.png') no-repeat 9px;
+}
+.mar-right{
+	width: 234px;
+	height: 210px;
+}
+.mar-right img[src="../images/center-r.png"]{
+	margin-bottom: 21px;
+}
+
+/* 建筑材料 */
+.bud{
+	height: 34px;
+	width: 948px;
+	margin: 14px auto 11px;
+	border-top: 2px solid #c3d7e4;
+	background: #ecf1f7;
+	font: 700 14px/34px 宋体;
+	padding-left: 22px;
+}	
+/* 建筑材料列表 */
+.pro{
+	width: 970px;
+	height: 344px;
+	margin: 0 auto;
+}
+.pro-left{
+	width: 727px;
+	height: 344px;
+	border: 1px solid #d8d8d8;
+}
+.pro-right{
+	width: 228px;
+	height: 344px;
+	border: 1px solid #d8d8d8;
+}
+.pro-left-t{
+	width: 656px;
+	height: 142px;
+	/* background: #000; */
+	margin: 15px 0 14px 26px;
+}
+.pro-pic-l{
+	width: 318px;
+	height: 142px;
+	/* background: #aaa; */
+}
+.pro-pic-r{
+	width: 318px;
+	height: 142px;
+	/* background: #aaa; */
+}
+.pro-pic-ll{
+	width: 97px;
+	height: 142px;
+	/* background: #aaa; */
+}
+.pro-pic-llt{
+	width: 97px;
+	height: 100px;
+	text-align: center;
+	border: 1px solid #cacaca;
+}
+.pro-pic-llt img{
+	margin-top: 17.5px
+}
+.pro-pic-btn input{
+	width: 98px;
+	height: 26px;
+	background: url('../images/buy.png');
+	margin-top: 15px;
+}
+.pro-pic-lr{
+	margin-left: 10px;	
+}
+.pro-pic-lr p{
+	margin: 0px;
+	font-size: 14px;
+}
+.pro-pic-lr p span{
+	color: #ff0000;
+	font-weight: 700;
+}
+.pro-pic-lr p del{
+	font-size: 12px;
+}
+.pro-pic-lr p.txt1{
+	height: 28px;
+	margin-top: 10px;
+}
+.pro-pic-lr p.txt2{
+	height: 49px;
+}
+.pro-pic-lr p.txt3{
+	height: 38px;
+}
+.pro-line{
+	border-top: 1px solid #eee;
+	margin: 0 5pxs;
+}
+.pro-right-title{
+	height: 28px;
+	line-height: 28px;
+	padding-left: 15px;
+	background: #fbfbfb;
+	border-bottom: 1px solid #e0e6f0;
+}
+.pro-right ul{
+	padding: 0px;
+	margin-top: 17px;
+}
+.pro-right li{
+	padding-left: 25px;
+	height: 24px;
+	font-size: 12px;
+	background: url('../images/li_bg.png') no-repeat 10px 6px;
+}
+.pro-right ul li a:hover{
+	color: #ff0000;
+	text-decoration: underline;
+}
+
+/* 儿童安全座椅开始 */
+.child-char{
+	width: 970px;
+	height: 326px;
+	margin: 0px auto;
+	/* padding: 0px; */
+	/* background: #aaa; */
+}
+.child-char-left{
+	width: 722px;
+	height: 326px;
+}
+.child-l-t{
+	height: 23px;
+	background: url('../images/et.png') no-repeat;
+	border-bottom: 2px solid #00b0e7;
+}
+.child-l-t h3{
+	margin: 0px;
+	font-size: 14px;
+	color: #00b0e7;	
+	height: 23px;
+	line-height: 23px;
+	text-align: right;
+}
+.child-l-b{
+	height: 301px;
+	border: 1px solid #cacaca;
+}
+.child-pic{
+	width: 164px;
+	text-align: center;
+	margin: 5px 0 0 13px;
+}
+.et1,.et2,.et3,.et4{
+	margin: 0px;
+	font-size: 12px;
+}
+p.et1{
+	height: 43px;
+	margin-top: 9px;	
+}
+p.et2,p.et3{
+	height: 24px;
+	color: #999;
+}
+p.et3 del{
+	color: #990000;
+}
+p.et4 span{
+	color: #ff0000; 	
+}
+.child-char-right{
+	width: 218px;
+	height: 326px;
+}
+.child-char-right img[src="../images/et_right.png"]{
+	border: 1px solid #cbcbcb;
+	margin-bottom: 20px;
+}
+.subtitle{
+	height: 75px;
+	background: url('../images/subtitle.png') no-repeat;
+	margin: 8px 0 24px 8px;
+}
+.subtitle p{
+	margin: 0 10px 0 0px;
+	width: 100px;
+	float: right;
+	font-size: 12px;
+	color: #aaaaaa;
+}
+.link{
+	width: 970px;
+	height: 102px;
+	border-top: 1px solid #dddddd;
+	border-bottom: 3px solid #0a7ec3;	
+	margin: 10px auto 0;
+	padding-top: 30px;
+}
+.link ul{
+	margin: 0;
+}
+.fr-link{
+	height: 38px;
+}
+.fr-link, .link li{
+	float: left;
+	font-size: 12px;
+	padding: 0 4px;
+}
+.link li a:hover{
+	color: #ff0000;
+	text-decoration: underline;
+}
+.copyright{
+	height: 91px;
+	text-align: center;
+}
+.copyright ul{
+	height: 12px;
+	margin: 15px auto;
+	width: 800px;
+	padding-left: 0px;
+}
+.copyright ul li{
+	float: left;
+	font-size: 14px;
+	padding: 0 10px;
+	background: url('../images/footer_bg.png') no-repeat right;
+}
+.copyright p{
+		margin: 0px;
+}
+.copyright p.copy{
+	height: 24px;
+	margin-top: 13px;
+}
