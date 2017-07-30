@@ -389,7 +389,7 @@ p.et4 span{
 	background: url('../images/footer_bg.png') no-repeat right;
 }
 .copyright p{
-		margin: 0px;
+		margin: 0;
 }
 .copyright p.copy{
 	height: 24px;
